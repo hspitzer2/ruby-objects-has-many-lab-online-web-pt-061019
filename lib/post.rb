@@ -9,6 +9,9 @@ class Post
     @@all << self
   end
 
+  def add_author
+    author = author.new
+  end
 
 
 

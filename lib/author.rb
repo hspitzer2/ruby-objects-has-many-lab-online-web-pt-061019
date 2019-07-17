@@ -5,6 +5,7 @@ class Author
     def initialize(name)
       @name = name
       @posts = []
+      @posts << post
     end
 
    def posts # this is a custom getter method to use [] can change in future

@@ -9,9 +9,12 @@ class Post
     @@all << self
   end
 
-  def add_author(name)
-    @author << author
-    Post.author.self
+  def author_name
+    if author
+      self.author.name
+    else
+      nil
+    end
   end
 
 

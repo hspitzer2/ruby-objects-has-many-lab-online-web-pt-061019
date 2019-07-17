@@ -26,34 +26,8 @@ class Artist
     @@song_count += 1
   end
 
-
-
   def self.song_count
     @@song_count
   end
-
-end
-
-class Song
-  attr_accessor :genre, :artist, :name
-
-   @@all = []
-
-  def initialize (name, artist = nil)
-    @name = name
-    artist = artist
-    @@all << self
-  end
-
-  def artist_name
-    if artist = self.artist_name
-    else
-      nil
-    end
-  end
-
-    def self.all
-      @@all
-    end
 
 end

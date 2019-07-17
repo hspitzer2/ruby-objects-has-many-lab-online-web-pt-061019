@@ -1,8 +1,15 @@
 class Author
   attr_accessor :name
+    @@post = []
 
     def initialize(name, title)
       @name = name
+      @posts = []
     end
+   def posts # this is a getter method
+     @posts
+   end
+
+
 
 end

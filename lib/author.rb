@@ -7,7 +7,7 @@ class Author
       @posts = []
     end
 
-   def posts # this is a custom getter method
+   def posts # this is a custom getter method to use []
      @posts
    end
 
